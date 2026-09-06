@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Castle Quest",
+      "hasCanvas": true,
+      "bodyTextLen": 254,
+      "bodyTextHash": "9c2943b0a0498ca3a36abd626ddf60a986a77b1fd01e48ab0186a24578f0e416",
+      "bodyTextPrefix": "A STORYBOOK ADVENTURE The Castle Quest Guide Pip through ten gen",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Castle Quest",
+      "hasCanvas": true,
+      "bodyTextLen": 254,
+      "bodyTextHash": "9c2943b0a0498ca3a36abd626ddf60a986a77b1fd01e48ab0186a24578f0e416",
+      "bodyTextPrefix": "A STORYBOOK ADVENTURE The Castle Quest Guide Pip through ten gen",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

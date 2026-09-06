@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f4eee3;
+  --color-paper-deep: #e7dcc8;
+  --color-ink: #2f241f;
+  --color-ink-soft: #5c4a43;
+  --color-muted: #8a7368;
+  --color-surface: #fffaf2;
+  --color-surface-2: #f7efe3;
+  --color-line: #d8cbb8;
+  --color-rose: #c45c6a;
+  --color-rose-deep: #a34856;
+  --color-meadow: #4c8a62;
+  --color-meadow-deep: #3b6e4e;
+  --color-sky: #6aaec8;
+  --color-shadow: #2f241f22;
+  --font-display: "Fraunces", "Times New Roman", serif;
+  --font-sans: "Nunito", "Segoe UI", sans-serif;
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-2xl: 36px;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html,
+  body,
+  #app {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: var(--color-ink);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    overflow: hidden;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
